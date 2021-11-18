@@ -8,11 +8,11 @@ Instalar python 3.9 en tu movidales
 # Uso
 
 Windows:
-  modificar ./tests/spoofeada_test.py con las ips y macs de la victima y el router.
-  pip install -r requirements.txt
-  python ./tests/spoofeada_test.py
+  1. modificar ./tests/spoofeada_test.py con las ips y macs de la victima y el router.
+  2. pip install -r requirements.txt
+  3. python ./tests/spoofeada_test.py
 
 Linux:
-  modificar ./tests/spoofeada_test.py con las ips y macs de la victima y el router.
-  python3.9 -m pip install -r requirements.txt
-  python3.9 ./tests/spoofeada_test.py
+  1. modificar ./tests/spoofeada_test.py con las ips y macs de la victima y el router.
+  2. python3.9 -m pip install -r requirements.txt
+  3. python3.9 ./tests/spoofeada_test.py
