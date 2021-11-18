@@ -32,7 +32,7 @@ def mandar_paquete_arp(paquetada):
      Ejecutando la mitica espufeada padre.
      
      Args:
-      paquetada (scapy.all.ARP()): El paquete ARP generado con crear_paquete_arp_fake.
+      paquetada (scapy.all.ARP): El paquete ARP generado con crear_paquete_arp_fake.
   """
   send(paquetada)
   
