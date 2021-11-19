@@ -32,6 +32,19 @@ def router_spoofeado():
   spoofeada.mandar_paquete_arp(spoofeada_padre)
   
   return None
+
+#TODO: Generar codigo para obtener las tablas ARP de victima antes del poisoning
+def tabla_arp_victima_original():
+  # Movidas aqui
+  return none
+#TODO: Generar codigo para obtener las tablas ARP de router antes del poisoning
+def tabla_arp_router_original():
+  # Movidas aqui
+  return none
+#TODO: Generar codigo para el reseteo si no la victima se queda sin internet y ya se alarma la movida
+def arp_antidoto():
+  # Movidas aqui
+  return none
   
 if __name__ == "__main__":
   try:
