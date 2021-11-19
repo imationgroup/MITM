@@ -2,6 +2,7 @@ import ../spoofeada
 import time
 import os
 
+# TODO: IMPROVEMENTS --> Generar un  bypass HTTPS
 # Prueba de concepto de la spoofeada
 
 # Sin este comando en la maquina pirania, la victima no tendria internet
